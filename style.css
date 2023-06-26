@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.jardim .fundo {
+
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+}
+
+ :root {
+
+  font-size: 62.5%;
+ }
+
+.toupeiras {
+
+  position: absolute;
+  top: 30.3rem;
+  left: 24.5rem;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 5.4rem;
+}
+
+.seq01 {
+  position: absolute;
+  opacity: 0;
+  animation: aparecertoupeiras 0.5s normal;
+  animation-delay: 2s;
+}
+
+.seq02 {
+  position: absolute;
+  opacity: 0;
+  animation: aparecertoupeiras 0.4s normal;
+  animation-delay: 2.3s;
+}
+
+.seq03 {
+  position: absolute;
+  opacity: 0;
+  animation: aparecertoupeiras 0.4s normal;
+  animation-delay: 2.6s;
+}
+
+.seq04 {
+  position: absolute;
+  opacity: 0;
+  animation: aparecertoupeiras 0.3s normal;
+  animation-delay: 2.9s;
+}
+
+.seq05 {
+  position: absolute;
+  opacity: 0;
+  animation: aparecertoupeiras 0.2s normal;
+  animation-delay: 3.2s;
+}
+
+.toupeiras1 {
+  position: absolute;
+  top: 30.3rem;
+  right: 78rem;
+}
+
+.seq011 {
+  position: absolute;
+  opacity: 0;
+  animation: aparecertoupeiras 0.5s normal;
+  animation-delay: 8s;
+}
+
+.seq022 {
+  position: absolute;
+  opacity: 0;
+  animation: aparecertoupeiras 0.4s normal;
+  animation-delay: 8.3s;
+}
+
+.seq033 {
+  position: absolute;
+  opacity: 0;
+  animation: aparecertoupeiras 0.4s normal;
+  animation-delay: 8.6s;
+}
+
+.seq044 {
+  position: absolute;
+  opacity: 0;
+  animation: aparecertoupeiras 0.3s normal;
+  animation-delay: 8.9s;
+}
+
+.seq055 {
+  position: absolute;
+  opacity: 0;
+  animation: aparecertoupeiras 0.2s normal;
+  animation-delay: 9.2s;
+}
+
+.toupeiras2 {
+  position: absolute;
+  top: 52.11rem;
+  left: 80rem;
+}
+
+.seq0111 {
+  position: absolute;
+  opacity: 0;
+  animation: aparecertoupeiras 0.5s normal;
+  animation-delay: 13s;
+}
+
+.seq0222 {
+  position: absolute;
+  opacity: 0;
+  animation: aparecertoupeiras 0.4s normal;
+  animation-delay: 13.3s;
+}
+
+.seq0333 {
+  position: absolute;
+  opacity: 0;
+  animation: aparecertoupeiras 0.4s normal;
+  animation-delay: 13.6s;
+}
+
+.seq0444 {
+  position: absolute;
+  opacity: 0;
+  animation: aparecertoupeiras 0.3s normal;
+  animation-delay: 13.9s;
+}
+
+.seq0555 {
+  position: absolute;
+  opacity: 0;
+  animation: aparecertoupeiras 0.2s normal;
+  animation-delay: 14.2s;
+}
+
+.toupeiras3 {
+  position: absolute;
+  top: 75rem;
+  right: 78rem;
+}
+
+.seq01111 {
+  position: absolute;
+  opacity: 0;
+  animation: aparecertoupeiras 0.5s normal;
+  animation-delay: 16s;
+}
+
+.seq02222 {
+  position: absolute;
+  opacity: 0;
+  animation: aparecertoupeiras 0.4s normal;
+  animation-delay: 16.3s;
+}
+
+.seq03333 {
+  position: absolute;
+  opacity: 0;
+  animation: aparecertoupeiras 0.4s normal;
+  animation-delay: 16.6s;
+}
+
+.seq04444 {
+  position: absolute;
+  opacity: 0;
+  animation: aparecertoupeiras 0.3s normal;
+  animation-delay: 16.9s;
+}
+
+.seq05555 {
+  position: absolute;
+  opacity: 0;
+  animation: aparecertoupeiras 0.2s normal;
+  animation-delay: 17.2s;
+}
+
+
+
+
+
+@keyframes aparecertoupeiras {
+
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
